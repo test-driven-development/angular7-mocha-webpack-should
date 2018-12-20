@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "types": [
+    "core-js",
+    "node"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "ngfactory"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  }
+}

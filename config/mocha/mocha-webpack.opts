@@ -1,0 +1,8 @@
+--webpack-config config/webpack.test.node.js
+--require config/mocha/mocha-node-test-shim.js
+--reporter spec
+--growl
+--colors
+--require source-map-support/register
+--timeout 30000
+src/test/*.spec.ts

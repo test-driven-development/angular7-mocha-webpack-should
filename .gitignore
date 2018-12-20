@@ -1,0 +1,38 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Node
+node_modules/
+
+# NPM
+*.log
+
+# TypeScript
+typings/
+
+# Tomcat Embedded
+tomcat.8080/
+
+# mocha-webpack test directory
+.tmp
+
+# Js Istanbul Coverage
+coverage/
+reports/
+.nyc_output/
+tests-report.xml
