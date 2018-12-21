@@ -1,5 +1,6 @@
 --webpack-config config/webpack.test.node.js
 --require config/mocha/mocha-node-test-shim.js
+--require node_modules/should/should.js
 --reporter spec
 --growl
 --colors
