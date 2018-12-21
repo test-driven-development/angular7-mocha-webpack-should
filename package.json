@@ -21,8 +21,9 @@
   "bugs": {
     "url": "https://github.com/test-driven-development/angular7-mocha-webpack-should/issues"
   },
-  "homepage": "hthttps://github.com/test-driven-development/angular7-mocha-webpack-should#readme",
+  "homepage": "https://github.com/test-driven-development/angular7-mocha-webpack-should#readme",
   "scripts": {
+    "server": "json-server server/api/db.json --routes server/api/routes.json --port 8080 --watch",
     "start": "webpack-dev-server --mode development --watch-content-base",
     "test": "rimraf .tmp && mocha-webpack --opts config/mocha/mocha-webpack.opts",
     "test:watch": "rimraf .tmp && mocha-webpack --opts config/mocha/mocha-webpack.opts --watch",
@@ -105,7 +106,8 @@
     "webpack-dev-middleware": "3.4.0",
     "webpack-dev-server": "3.1.10",
     "webpack-merge": "4.1.4",
-    "webpack-node-externals": "1.7.2"
+    "webpack-node-externals": "1.7.2",
+    "yarn": "1.12.3"
   },
   "nyc": {
     "include": [
