@@ -46,7 +46,7 @@ module.exports = {
       {
         test: /\.css$/,
         include: helpers.root('src/app'),
-        use: 'css-to-string-loader!css-loader'
+        use: ['to-string-loader', 'css-loader'],
       }
     ]
   },
