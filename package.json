@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/test-driven-development/angular7-mocha-webpack-should#readme",
   "scripts": {
-    "server": "json-server server/api/db.json --routes server/api/routes.json --port 8080 --watch",
+    "server": "json-server server/api/db.json --routes server/api/routes.json --port 8081 --watch",
     "start": "webpack-dev-server --mode development --watch-content-base",
     "test": "rimraf .tmp && mocha-webpack --opts config/mocha/mocha-webpack.opts",
     "test:watch": "rimraf .tmp && mocha-webpack --opts config/mocha/mocha-webpack.opts --watch",
