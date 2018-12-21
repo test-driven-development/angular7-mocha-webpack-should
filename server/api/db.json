@@ -1,0 +1,58 @@
+{
+  "requests": [
+    {
+      "id": "911ec20e61f047fcbad1460ca598cee8",
+      "revision": "2-c55b16001b21c54b4f91ca11a3a499f3",
+      "created": 1525205887498,
+      "status": "PENDING_APPROVAL",
+      "type": "VERIFY",
+      "details": {
+        "verify": {
+          "verified": false,
+          "email": "a@a.com",
+          "dob": "2012-3-4",
+          "phoneCountry": "+93",
+          "phoneNumber": "123123",
+          "passportNumber": "123123123",
+          "passportCountry": "AT",
+          "document": {
+            "id": "b1cd00d6-4e83-4469-9e84-1e338f4abd50"
+          },
+          "customerSearchResults": [],
+          "missMatchAttempts": 0
+        }
+      },
+      "userName": "USERNAMETESTTEST",
+      "lastUpdated": 1525212687268,
+      "firstName": "NameOfMe",
+      "lastName": "Last",
+      "history": [{
+        "title": "Request In Review",
+        "document": {
+          "id": "b1cd00d6-4e83-4469-9e84-1e338f4abd50"
+        },
+        "systemId": "PrivacyPortal",
+        "timestamp": 1525212687266,
+        "message": "Thank you for your request.  A Data Privacy Officer will review your information and use this portal to communicate with you. You will receive an email when there is an update. You may return to the portal homepage to check on the status.",
+        "type": "REQUEST_INVIEW",
+        "internal": false
+      }],
+      "requestId": "911ec20e61f047fcbad1460ca598cee8"
+    }
+  ],
+  "security-restrictions": {
+    "cupidFlags": {
+      "16489523": true,
+      "164895231": false
+    },
+    "securityRestrictions": {
+      "5H592M6": [
+        "MONITOR ONLY",
+        "NO FLY",
+        "DETAIN AT CUSTOMS",
+        "CONFISCATE ALL EFFECTS"
+      ],
+      "5H592M7": []
+    }
+  }
+}
