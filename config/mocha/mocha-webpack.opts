@@ -5,4 +5,4 @@
 --colors
 --require source-map-support/register
 --timeout 30000
-src/test/*.spec.ts
+src/**/*.spec.ts
